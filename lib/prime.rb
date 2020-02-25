@@ -5,7 +5,7 @@ def prime_euler
   nums = []
   while i < 1000
     if i % 3 == 0 || i % 5 == 0
-      nums << i 
+      nums << i
     end
   end
   sum_of_all = 0
