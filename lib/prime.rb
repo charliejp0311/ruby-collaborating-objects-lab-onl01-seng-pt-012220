@@ -7,6 +7,7 @@ def prime_euler
     if i % 3 == 0 || i % 5 == 0
       nums << i
     end
+    i += 1
   end
   sum_of_all = 0
   nums.each do |num|
